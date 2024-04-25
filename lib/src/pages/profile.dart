@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    "Md Zillur Rahman",
+                    "Mohamed Benhasan",
                     style: Theme.of(context)
                         .textTheme
                         .headline6
@@ -29,7 +29,7 @@ class ProfilePage extends StatelessWidget {
                         onPressed: () {},
                         heroTag: 'follow',
                         elevation: 0,
-                        label: const Text("Email: zillur.info1@gmail.com"),
+                        label: const Text("Email: medbenhasan@gmail.com"),
                         icon: const Icon(Icons.email),
                       ),
                       const SizedBox(height: 16.0),
@@ -37,7 +37,7 @@ class ProfilePage extends StatelessWidget {
                         onPressed: () {},
                         heroTag: 'mesage',
                         elevation: 0,
-                        label: const Text("Phone Number: 01856624090"),
+                        label: const Text("Phone Number: 56564549"),
                         icon: const Icon(Icons.phone_android_outlined),
                       ),
                       const SizedBox(height: 16.0),
@@ -45,7 +45,7 @@ class ProfilePage extends StatelessWidget {
                         onPressed: () {},
                         heroTag: 'mesage',
                         elevation: 0,
-                        label: const Text("Address: Badda Dhaka "),
+                        label: const Text("Address: Enetcom "),
                         icon: const Icon(Icons.location_city_sharp),
                       ),
                     ],
@@ -94,8 +94,7 @@ class _TopPortion extends StatelessWidget {
                     color: Colors.black,
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                        fit: BoxFit.cover,
-                        image: AssetImage('assets/img/my_img.jpg')),
+                        fit: BoxFit.cover, image: AssetImage('')),
                   ),
                 ),
                 Positioned(
